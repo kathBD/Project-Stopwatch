@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+    
+  }
+  
+  .circle-clock{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 207, 142);
+  }
+  
+  .container{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: 3px solid black;
+  }
+  
+  .chronometer{
+    font-size: 30px;
+  }
+  
+  .play,.pause ,.clear{
+    font-size: 16px;
+    border-radius: 3px;
+  }
+  
