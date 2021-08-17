@@ -11,18 +11,14 @@
 <body>
     <main>
         <div class="circle-clock">
-            <div id="clock" class="stopwatch">
-                
-
-            </div>
+            <div class="container">
+            <div id="clock" class="chronometer">00:00:00</div>
         <div class="btn">
-            <div class="play" onclick="advance">Play</div>
-            <div class="pause" onclick="paused">Pause</div>
-            <div class="clear" onclick="reset">Clear</div>
+            <input type="button" value="play" class="play">
+            <input type="button" value="pause" class="pause">
+            <input type="button" value="clear" class="clear">
         </div>
         </div>
-        <div id="clock">
-            <h2>Tiempos</h2>
         </div>
     </main> 
     <script src="./app.js"></script>
