@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Stopwatch</title>
 </head>
 <body>
-    
+    <main>
+        <div class="circle-clock">
+            <div id="clock" class="stopwatch">00:00:00</div>
+        <div class="btn">
+            <div class="play" onclick="advance">Play</div>
+            <div class="pause" onclick="paused">Pause</div>
+            <div class="clear" onclick="reset">Clear</div>
+        </div>
+        </div>
+    </main> 
     <script src="./app.js"></script>
 </body>
 </html>
