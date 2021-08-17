@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Stopwatch</title>
+    <title>c=Chronometer</title>
 </head>
+
 <body>
     <main>
         <div class="circle-clock">
             <div class="container">
-            <h1><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="miliseconds">00</span></h1>
-        <div class="btn">
-            <input type="button" value="play" class="play">
-            <input type="button" value="pause" class="pause" onclick="detenerse()" >
-           <a href="index.html"> <input type="button" value="clear" class="clear" ></a>
-        </div>
-        </div>
-    </main> 
+                <h1><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="miliseconds">00</span>
+                </h1>
+                <div class="btn">
+                    <input type="button" value="play" class="play" onclick="carga()">
+                    <input type="button" value="pause" class="pause" onclick="detenerse()">
+                    <a href="index.html"><input type="button" value="clear" class="clear"></a>
+                </div>
+            </div>
+    </main>
     <script src="./app.js"></script>
 </body>
+
 </html>

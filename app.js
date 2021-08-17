@@ -7,7 +7,7 @@ function detenerse(){
     clearInterval(cronometro);  
  }
  
-
+//
 function carga() {
 
     let contadorMinutes = 0;
