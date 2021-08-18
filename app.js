@@ -32,7 +32,7 @@ function carga() {
             mls.innerHTML = contadorMiliseconds;
             contadorMiliseconds++
 
-        }, 17); //Me actualiza cada 17 milisegundos,  //1 segundo es igual a 1000 mls, 1000 mls se divive entre 60segundos
+        }, 17); //la velocidad en que debe actualizar,  //1 segundo es igual a 1000 mls, 1000 mls se divive entre 60segundos
 }
 
 //Esta funcion es para detener el bucle ¨clearInterval¨
