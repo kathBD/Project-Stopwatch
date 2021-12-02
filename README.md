@@ -4,6 +4,7 @@ Creación de un cronometro tecnología Html, css y JavaScript Vanilla
  
 Mira Deployment 🚀  del proyecto.
 https://cronometro-team.netlify.app/
+<hr>
 Autoras ✒️
 <ul>
 <li>Angie Sánchez 
